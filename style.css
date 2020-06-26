@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 0px;
+  }
+  
+  header {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  
+  .vertical {
+   font-size: 200px;
+   transform: rotate(-90deg);
+   transform-origin: right;
+   margin: 0;
+  }
+  
+  .bauhaus {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: white;
+  }
+  
+  .bauhaus h2 {
+    font-size: 72px;
+    margin: 0;
+  }
+  
+  .bauhaus p {
+    margin: 0;
+  }
+  
+  .date {
+   font-size: 200px;
+   transform: rotate(-90deg);
+   transform-origin: right;
+   margin: 0;
+   grid-column-start: 2;
+   grid-row-start: 2;
+  }
+  
+  .webaddress {
+   font-size: 30px;
+   color: black;
+   transform: rotate(-90deg);
+   transform-origin: right;
+   margin: 0;
+   grid-column-start: 9;
+   grid-row-start: 2;
+  }

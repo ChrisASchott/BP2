@@ -12,21 +12,22 @@ body {
   
   header {
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 6;
   }
   
   .vertical {
-   font-size: 200px;
+   font-size: 150px;
    transform: rotate(-90deg);
    transform-origin: right;
    margin: 0;
   }
   
   .bauhaus {
-    grid-column-start: 3;
-    grid-column-end: 7;
+    grid-column-start: 6;
+    grid-column-end; 10;
     grid-row-start: 1;
-    grid-row-end: 2;
     color: white;
   }
   
@@ -54,6 +55,7 @@ body {
    transform: rotate(-90deg);
    transform-origin: right;
    margin: 0;
-   grid-column-start: 9;
+   grid-column-start: 8;
    grid-row-start: 2;
+   grid-row-end: 4;
   }

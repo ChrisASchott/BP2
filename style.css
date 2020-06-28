@@ -1,7 +1,18 @@
 body {
     margin: 0px;
     font-family: 'Poppins', sans-serif;
+    max-width: 960px;
+    min-width: 320px;
+    background-image: url(images/Shapes.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0in;
   }
+
+  img {
+    width: 100%;
+    height: auto;
+    }
   
   .wrapper {
     display: grid;
@@ -12,7 +23,7 @@ body {
   
   header {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 6;
   }
@@ -25,8 +36,8 @@ body {
   }
   
   .bauhaus {
-    grid-column-start: 6;
-    grid-column-end; 10;
+    grid-column-start: 3;
+    grid-column-end; 8;
     grid-row-start: 1;
     color: white;
   }
@@ -46,7 +57,7 @@ body {
    transform-origin: right;
    margin: 0;
    grid-column-start: 2;
-   grid-row-start: 2;
+   grid-row-start: 1;
   }
   
   .webaddress {

@@ -16,8 +16,8 @@ body {
   
   .wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(10 200px);
+    grid-template-rows: repeat(10 200px);
     grid-column-gap: 0px;
   }
   
@@ -31,42 +31,45 @@ body {
   .vertical {
    font-size: 150px;
    transform: rotate(-90deg);
-   transform-origin: right;
-   margin: 0;
+   transform-origin: bottom right;
   }
   
   .bauhaus {
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end; 8;
     grid-row-start: 1;
-    color: white;
+    grid-row-end: 3
   }
   
   .bauhaus h2 {
     font-size: 72px;
     margin: 0;
+    color: white;
   }
   
   .bauhaus p {
     margin: 0;
+    color: white;
   }
   
   .date {
    font-size: 200px;
    transform: rotate(-90deg);
-   transform-origin: right;
-   margin: 0;
+   transform-origin: bottom right;
    grid-column-start: 2;
-   grid-row-start: 1;
+   grid-row-start: 3;
+   grid-row-start: 2;
+   grid-row-end: 6;
   }
   
   .webaddress {
    font-size: 30px;
    color: black;
    transform: rotate(-90deg);
-   transform-origin: right;
+   transform-origin: bottom right;
    margin: 0;
    grid-column-start: 8;
-   grid-row-start: 2;
-   grid-row-end: 4;
+   grid-column-end: 9;
+   grid-row-start: 7;
+   grid-row-end: 10;
   }

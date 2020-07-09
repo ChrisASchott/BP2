@@ -16,8 +16,8 @@ body {
   
   .wrapper {
     display: grid;
-    grid-template-columns: repeat(10 200px);
-    grid-template-rows: repeat(10 200px);
+    grid-template-columns: repeat(10, 200px);
+    grid-template-rows: repeat(10, 200px);
     grid-column-gap: 0px;
   }
   

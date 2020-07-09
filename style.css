@@ -8,11 +8,6 @@ body {
     background-repeat: no-repeat;
     background-position: 0in;
   }
-
-  img {
-    width: 100%;
-    height: auto;
-    }
   
   .wrapper {
     display: grid;

@@ -25,8 +25,7 @@ body {
   
   .vertical {
    font-size: 150px;
-   translatex (-100px);
-   transform: rotate(-90deg);
+   transform: translatey(200px) rotate(-90deg);
    transform-origin: bottom right;
   }
   
